@@ -1,0 +1,14 @@
+.container {
+  height: fit-content;
+}
+.box {
+  border: 2px solid black;
+  margin: auto;
+  width: fit-content;
+}
+.join {
+  float: right;
+}
+p {
+  display: inline;
+}
