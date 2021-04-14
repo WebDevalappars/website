@@ -109,20 +109,23 @@ app.use("/loginPage.css", express.static("loginPage.css"));
 app.get("/", (req, res) => {
   res.send("error");
 });
-app.post("/loginPage/signUpPage", async (req, res) => {
+app.post("/signUp", async (req, res) => {
   try {
+    const name = req.body.fullName;
     const email = req.body.email;
     const password = req.body.password;
     const cpassword = req.body.confirmPassword;
+
     if (password === cpassword) {
       const registerEmployee = new Register({
+        fullName: name,
         email: email,
         password: password,
         confirmPassword: cpassword,
       });
 
       const registered = registerEmployee.save();
-      return res.redirect("/loginPage");
+      return res.redirect("/homeWebApp");
     } else {
       alert("password and confirm password are not matching");
     }
@@ -131,15 +134,10 @@ app.post("/loginPage/signUpPage", async (req, res) => {
   }
 });
 
-app.get("/loginPage", (req, res) => {
-  res.sendFile(__dirname + "/loginPage.html");
+app.get("/login", (req, res) => {
+  res.sendFile(__dirname + "/login.html");
 });
-app.get("/loginPagesignUpPage/loginPage", (req, res) => {
-  res.sendFile(__dirname + "/loginPage.html");
-});
-app.get("/loginPage/signUpPage", (req, res) => {
-  res.sendFile(__dirname + "/signUpPage.html");
-});
+
 app.get("/homeWebApp", (req, res) => {
   res.sendFile(__dirname + "/homeWebApp.html");
 });
@@ -165,7 +163,7 @@ app.get("/cp", (req, res) => {
   res.sendFile(__dirname + "/cp.html");
 });
 
-app.post("/loginPage", async (req, res) => {
+app.post("/login", async (req, res) => {
   try {
     const email = req.body.email;
     const password = req.body.password;

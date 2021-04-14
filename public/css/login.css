@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Tahoma;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: url("../login/bar\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bar {
+  display: flex;
+  height: 100px;
+  /* border: 1px solid red; /*
+    /* background: url("bar (1).jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+  margin: 5px 10px;
+  padding-left: 50px;
+}
+
+.login {
+  display: flex;
+  /* border: 1px solid red; */
+  flex: 1 1;
+  flex-flow: row;
+  align-items: center;
+  margin-left: 80px;
+  justify-content: flex-end;
+  max-width: 80vw;
+}
+
+.block {
+  display: flex;
+  /* border: 1px solid blue; */
+  margin-right: 25px;
+}
+
+.email,
+.password {
+  margin-right: 24px;
+  text-align: left;
+}
+
+.email h1,
+.password h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 18px;
+  border: none;
+}
+
+input[type="password"] {
+  width: 200px;
+  height: 18px;
+  border: none;
+}
+
+.button {
+  /* border: 1px solid red; */
+  align-self: flex-end;
+}
+
+input[type="submit"] {
+  height: 24px;
+  width: 48px;
+  border: none;
+  border-radius: 15%;
+}
+
+.container-main {
+  display: flex;
+  flex-flow: row;
+}
+
+.logo-main {
+  display: flex;
+  flex: 1 1 720px;
+  padding: 50px;
+  /* border: 1px solid blue; */
+  height: 80vh;
+  min-width: 240px;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+.logo-main img {
+  flex-shrink: 1;
+  /* border: 5px solid grey; */
+  align-self: center;
+  width: 500px;
+  min-width: 240px;
+}
+
+.signup {
+  display: flex;
+  /* border: 1px solid green; */
+}
+
+.signup-block {
+  /* border: 3px solid yellow; */
+  text-align: start;
+  padding-top: 24px;
+  padding-left: 100px;
+  flex: 1 1;
+  display: flex;
+  flex-flow: column;
+  height: 80vh;
+  box-sizing: border-box;
+}
+
+.signup h1,
+h3 {
+  font-family: Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.signup-input {
+  display: flex;
+  flex-flow: column;
+  margin-top: 12px;
+  /* border: 1px solid brown; */
+}
+
+.signup input[type="text"] {
+  margin: 5px;
+  margin-left: 0px;
+  padding: 5px;
+  height: 36px;
+  width: 360px;
+}
+
+.signup input[type="password"] {
+  margin: 5px;
+  margin-left: 0px;
+  padding: 5px;
+  height: 36px;
+  width: 360px;
+}
+
+.signup input[type="email"] {
+  margin: 5px;
+  margin-left: 0px;
+  padding: 5px;
+  height: 36px;
+  width: 360px;
+}
+
+.signup input[type="date"] {
+  flex-grow: 1;
+  margin-left: 15px;
+  text-align: center;
+  font-family: Verdana;
+  color: grey;
+}
+
+.signup-dob {
+  display: flex;
+  flex-flow: row;
+  margin-top: 12px;
+  width: 370px;
+}
+
+.signup-gender {
+  display: flex;
+  margin-top: 12px;
+  /*border: 2px solid firebrick;*/
+}
+
+.signup-gender input[type="radio"] {
+  align-self: center;
+  margin-left: 16px;
+  margin-right: 5px;
+}
+
+.signup-gender h3 {
+  font-size: 20px;
+  align-self: center;
+}
+
+.signup-policy h1 {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.signup-button input[type="submit"] {
+  width: 90px;
+  height: 24px;
+  border-radius: 5%;
+}
+
+.signup-gender h1,
+.signup-dob h1 {
+  font-family: Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+}
