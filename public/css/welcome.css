@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("../images/welcome.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  animation: container;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.text {
+  font-size: 36px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+.line {
+  height: 2px;
+  width: 2.5%;
+  background-color: red;
+  margin-bottom: 100px;
+  animation: line;
+  animation-duration: 3000ms;
+  animation-fill-mode: forwards;
+  animation-delay: 100ms;
+}
+
+@keyframes line {
+  0% {
+    width: 2.5%;
+  }
+  50% {
+    width: 10%;
+  }
+  100% {
+    width: 2.5%;
+  }
+}
+
+@keyframes container {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
