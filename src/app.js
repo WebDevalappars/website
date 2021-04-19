@@ -169,7 +169,7 @@ app.post("/login", async (req, res) => {
     const password = req.body.password;
     const usermail = await Register.findOne({ email: email });
     if (usermail.password === password) {
-      return res.redirect("/homeWebApp");
+      return res.redirect("/groupPage");
     } else {
       alert(
         "invalid credentials,please create an account if not yet created!!!"
