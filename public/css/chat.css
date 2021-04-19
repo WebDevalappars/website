@@ -25,45 +25,69 @@ body {
 
 .general {
   height: 100vh;
-  background-image: url(../../chat-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .app {
   height: 100vh;
-  background-image: url(../../chat-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.app > h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: white;
 }
 .web {
   height: 100vh;
-  background-image: url(../../chat-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.web > h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: white;
 }
 .sports {
   height: 100vh;
-  background-image: url(../../chat-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.sports > h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: white;
 }
 .drama {
   height: 100vh;
-  background-image: url(../../chat-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
+.drama > h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: white;
+}
 .coding {
   height: 100vh;
-  background-image: url(../../chat-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+.coding > h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: white;
 }
 
 .message {
