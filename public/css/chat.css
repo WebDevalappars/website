@@ -1,6 +1,6 @@
 .container {
   max-width: 900px;
-  background-color: beige;
+  background-color: #48bba4bb;
   border-radius: 25px;
   margin: auto;
   height: 60vh;
@@ -8,9 +8,21 @@
   overflow: auto;
   margin-bottom: 23px;
 }
+
+body{
+  background-image: url(../../chat-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.btn{
+  
+}
+
 .general {
   height: 100vh;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));
+  /*background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));*/
 }
 .app {
   height: 100vh;
@@ -34,7 +46,7 @@
 }
 
 .message {
-  background-color: #1abc9c;
+  background-color: #8e44ad;
   color: rgb(245, 245, 245);
   border-radius: 5px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
