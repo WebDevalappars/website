@@ -8,9 +8,15 @@
     <title>Landing Page</title>
   </head>
   <body>
-    <button id="clickme" onclick="window.location.href='/groupPage'"></button>
     <div class="container">
-      <div class="text">Welcome</div>
+      <div class="text">
+        <center>Welcome to Namaste Chat App</center>
+        You will be redirected to a new page shortly....
+        <button
+          id="clickme"
+          onclick="window.location.href='/groupPage'"
+        ></button>
+      </div>
       <div class="line"></div>
     </div>
   </body>
@@ -18,6 +24,6 @@
     const button = document.getElementById("clickme");
     setTimeout(function () {
       button.click();
-    }, 5000);
+    }, 7000);
   </script>
 </html>
