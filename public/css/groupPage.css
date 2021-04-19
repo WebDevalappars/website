@@ -75,3 +75,15 @@ input[type="submit"]:hover {
   color: darkblue;
   font-size: 18px;
 }
+.home:hover {
+  background-color: #f1c40f;
+  color: darkblue;
+  font-size: 28px;
+}
+.home {
+  font-size: 25px;
+  color: green;
+  background-color: lightgreen;
+  width: fit-content;
+  height: fit-content;
+}
