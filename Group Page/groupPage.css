@@ -1,78 +1,77 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.container{
-    display: flex;
-    flex-flow: column;
-    height: 100vh;
-    width: 100vw;
-    padding-bottom: 5px;
-    box-sizing: border-box;
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  width: 100vw;
+  padding-bottom: 5px;
+  box-sizing: border-box;
 }
 
-h1{
-    font-weight: 400;
-    font-family: Tahoma, sans-serif;
-    color: whitesmoke;
+h1 {
+  font-weight: 400;
+  font-family: Tahoma, sans-serif;
+  color: whitesmoke;
 }
 
-.container > h1{
-    font-weight: 500;
-    color: darkblue;
-    text-align: center;
+.container > h1 {
+  font-weight: 500;
+  color: darkblue;
+  text-align: center;
 }
 
-.box{
-    display: flex;
-    flex-flow: column;
-    flex: 1 1;
-    background-color: #1034A6;
-    border: 5px solid darkblue;
-    margin-top: 5px;
-    padding: 2px 5px;
-    height: 100%;
-    min-width: 720px;
-    box-sizing: border-box;
-    
+.box {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1;
+  background-color: #1034a6;
+  border: 5px solid darkblue;
+  margin-top: 5px;
+  padding: 2px 5px;
+  height: 100%;
+  min-width: 720px;
+  box-sizing: border-box;
 }
 
-.content{
-    display: flex;
-    padding-top: 5px;
-    box-sizing: border-box;
-    height: 100%;
+.content {
+  display: flex;
+  padding-top: 5px;
+  box-sizing: border-box;
+  height: 100%;
 }
 
-.text{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    flex-basis: 1100px;
-    min-width: 1000px;
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  flex-basis: 1100px;
+  min-width: 1000px;
 }
 
-.button{
-    display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
-    align-content: center;
+.button {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-content: center;
 }
 
-input[type="submit"]{
-    width: 180px;
-    border: none;
-    background-color: white;
-    font-family: Tahoma, sans-serif;
-    font-size: 16px;
+input[type="submit"] {
+  width: 180px;
+  border: none;
+  background-color: white;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
 }
 
-.box:hover{
-    background-color: darkblue;
+.box:hover {
+  background-color: darkblue;
 }
 
-input[type="submit"]:hover{
-    background-color: #f1c40f;
-    color: darkblue;
-    font-size: 18px;
+input[type="submit"]:hover {
+  background-color: #f1c40f;
+  color: darkblue;
+  font-size: 18px;
 }
