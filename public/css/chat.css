@@ -1,6 +1,7 @@
 .container {
-  max-width: 955px;
+  max-width: 900px;
   background-color: beige;
+  border-radius: 25px;
   margin: auto;
   height: 60vh;
   padding: 33px;
@@ -33,7 +34,10 @@
 }
 
 .message {
-  background-color: lightblue;
+  background-color: #1abc9c;
+  color: rgb(245, 245, 245);
+  border-radius: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 24%;
   padding: 10px;
   margin: 17px 12px;
