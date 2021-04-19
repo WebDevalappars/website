@@ -9,47 +9,64 @@
   margin-bottom: 23px;
 }
 
-body{
+/* body {
+  background-image: url(../../chat-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} */
+
+.btn {
+}
+
+.general {
+  height: 100vh;
+  background-image: url(../../chat-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.app {
+  height: 100vh;
+  background-image: url(../../chat-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.web {
+  height: 100vh;
+  background-image: url(../../chat-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.sports {
+  height: 100vh;
+  background-image: url(../../chat-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.drama {
+  height: 100vh;
+  background-image: url(../../chat-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.coding {
+  height: 100vh;
   background-image: url(../../chat-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-.btn{
-  
-}
-
-.general {
-  height: 100vh;
-  /*background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));*/
-}
-.app {
-  height: 100vh;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(39, 239, 122));
-}
-.web {
-  height: 100vh;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(239, 39, 39));
-}
-.sports {
-  height: 100vh;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(239, 209, 39));
-}
-.drama {
-  height: 100vh;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(239, 39, 239));
-}
-.coding {
-  height: 100vh;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(39, 232, 239));
-}
-
 .message {
   background-color: #8e44ad;
   color: rgb(245, 245, 245);
   border-radius: 5px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   width: 24%;
   padding: 10px;
   margin: 17px 12px;
