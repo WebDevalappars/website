@@ -74,6 +74,24 @@ input[type="submit"] {
   font-size: 16px;
 }
 
+.nav{
+  display: flex;
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.nav input{
+  border: 1px solid green;
+  background-color: rgb(18, 29, 150);
+  height: 50px;
+  align-self: center;
+  margin-right: 280px;
+  color: white;
+  box-sizing: border-box;
+}
+
 .box:hover {
   background-color: rgb(18, 29, 150);
 }
