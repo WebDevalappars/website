@@ -16,8 +16,8 @@
   background-size: cover;
   overflow: hidden;
   animation: container;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
+  /* animation-duration: 3s;
+  animation-fill-mode: forwards; */
 }
 
 .text {

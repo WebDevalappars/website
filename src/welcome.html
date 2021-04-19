@@ -8,13 +8,16 @@
     <title>Landing Page</title>
   </head>
   <body>
-    <button id="button" onclick="window.location.href='/groupPage'"></button>
+    <button id="clickme" onclick="window.location.href='/groupPage'"></button>
     <div class="container">
       <div class="text">Welcome</div>
       <div class="line"></div>
     </div>
   </body>
   <script>
-    setTimeout(document.getElementByID("button").click(), 5000);
+    const button = document.getElementById("clickme");
+    setTimeout(function () {
+      button.click();
+    }, 5000);
   </script>
 </html>

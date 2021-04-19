@@ -125,7 +125,7 @@ app.post("/signUp", async (req, res) => {
       });
 
       const registered = registerEmployee.save();
-      return res.redirect("/homeWebApp");
+      return res.redirect("/welcome");
     } else {
       alert("password and confirm password are not matching");
     }
@@ -162,6 +162,9 @@ app.get("/drama", (req, res) => {
 app.get("/cp", (req, res) => {
   res.sendFile(__dirname + "/cp.html");
 });
+app.get("/welcome", (req, res) => {
+  res.sendFile(__dirname + "/welcome.html");
+});
 
 app.post("/login", async (req, res) => {
   try {
@@ -169,7 +172,7 @@ app.post("/login", async (req, res) => {
     const password = req.body.password;
     const usermail = await Register.findOne({ email: email });
     if (usermail.password === password) {
-      return res.redirect("/groupPage");
+      return res.redirect("/welcome");
     } else {
       alert(
         "invalid credentials,please create an account if not yet created!!!"
