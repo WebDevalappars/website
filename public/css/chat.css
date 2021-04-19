@@ -7,9 +7,29 @@
   overflow: auto;
   margin-bottom: 23px;
 }
-body {
+.general {
   height: 100vh;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));
+}
+.app {
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(39, 239, 122));
+}
+.web {
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(239, 39, 39));
+}
+.sports {
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(239, 209, 39));
+}
+.drama {
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(239, 39, 239));
+}
+.coding {
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(39, 232, 239));
 }
 
 .message {
