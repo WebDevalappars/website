@@ -18,9 +18,9 @@ h1 {
   color: whitesmoke;
 }
 
-.container > h1 {
+.nav h1 {
   font-weight: 500;
-  color: darkblue;
+  color: rgb(18, 29, 150);
   text-align: center;
 }
 
@@ -29,7 +29,6 @@ h1 {
   flex-flow: column;
   flex: 1 1;
   background-color: #1034a6;
-  border: 5px solid darkblue;
   margin-top: 5px;
   padding: 2px 5px;
   height: 100%;
@@ -39,27 +38,36 @@ h1 {
 
 .content {
   display: flex;
+  border: 1px solid red;
   padding-top: 5px;
   box-sizing: border-box;
   height: 100%;
 }
 
 .text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  border: 1px solid red;
   color: white;
-  flex-basis: 1100px;
-  min-width: 1000px;
+  flex-basis: 1200px;
+  min-width: 900px;
+  box-sizing: border-box;
 }
 
 .button {
+  border: 1px solid orange;
+  flex-basis: 300px;
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
   align-content: center;
+  margin-bottom: 5px;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
   width: 180px;
+  height: 60px;
   border: none;
   background-color: white;
   font-family: Tahoma, sans-serif;
@@ -67,17 +75,17 @@ input[type="submit"] {
 }
 
 .box:hover {
-  background-color: darkblue;
+  background-color: rgb(18, 29, 150);
 }
 
 input[type="submit"]:hover {
   background-color: #f1c40f;
-  color: darkblue;
+  color: rgb(18, 29, 150);
   font-size: 18px;
 }
 .home:hover {
   background-color: #f1c40f;
-  color: darkblue;
+  color: rgb(18, 29, 150);
   font-size: 28px;
 }
 .home {
