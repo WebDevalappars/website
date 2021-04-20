@@ -33,7 +33,7 @@
   background-color: red;
   margin-bottom: 100px;
   animation: line;
-  animation-duration: 3000ms;
+  animation-duration: 2500ms;
   animation-fill-mode: forwards;
   animation-delay: 100ms;
 }
@@ -43,7 +43,7 @@
     width: 2.5%;
   }
   50% {
-    width: 10%;
+    width: 35%;
   }
   100% {
     width: 2.5%;
@@ -55,11 +55,8 @@
     opacity: 0;
   }
 
-  50% {
+  100% {
     opacity: 1;
   }
 
-  100% {
-    opacity: 0;
-  }
 }
