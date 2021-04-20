@@ -73,6 +73,9 @@ input[type="password"] {
   height: 18px;
   border: none;
 }
+input[type="submit"]:hover {
+  background-color: lightgreen;
+}
 
 .button {
   /* border: 1px solid red; */
