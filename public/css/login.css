@@ -83,15 +83,19 @@ body {
 }
 
 input[type="text"] {
-  width: 200px;
-  height: 18px;
+  width: 194px;
+  height: 22px;
+  margin-top: 3px;
   border: none;
+  box-sizing: border-box;
 }
 
 input[type="password"] {
-  width: 200px;
-  height: 18px;
+  width: 194px;
+  height: 22px;
+  margin-top: 3px;
   border: none;
+  box-sizing: border-box;
 }
 input[type="submit"]:hover {
   background-color: lightgreen;
@@ -169,16 +173,16 @@ h3 {
   margin: 5px;
   margin-left: 0px;
   padding: 5px;
-  height: 36px;
-  width: 360px;
+  height: 50px;
+  width: 380px;
 }
 
 .signup input[type="password"] {
   margin: 5px;
   margin-left: 0px;
   padding: 5px;
-  height: 36px;
-  width: 360px;
+  height: 50px;
+  width: 380px;
 }
 
 .signup input[type="email"] {
@@ -228,9 +232,11 @@ h3 {
 }
 
 .signup-button input[type="submit"] {
-  width: 90px;
-  height: 24px;
+  width: 180px;
+  height: 40px;
   border-radius: 5%;
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
 }
 
 .signup-gender h1,
@@ -240,4 +246,24 @@ h3 {
   font-size: 26px;
 }
 
+.signup input[type="text"]:hover{
+  border: 2px solid rgba(0, 0, 170, 0.70);
+  border-radius: 5px;
+}
 
+.signup input[type="password"]:hover{
+  border: 2px solid rgba(0, 0, 170, 0.70);
+  border-radius: 5px;
+}
+
+.signup-button input[type="submit"]:hover {
+  background-color: rgb(16, 16, 158);
+  border-radius: 5px;
+  color: white;
+}
+
+.login input[type="submit"]:hover {
+  background-color: rgb(16, 16, 158);
+  border-radius: 5px;
+  color: white;
+}
