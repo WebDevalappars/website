@@ -1,0 +1,15 @@
+---
+application:
+  name: "website"
+  project: "Chat"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "login"
+  version: "4.4"
+routers:
+- name: "main-website"
+  routes:
+  - application_name: "website"
+    paths:
+    - "/*"
