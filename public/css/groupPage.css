@@ -3,11 +3,11 @@
   padding: 0px;
 }
 
-body{
-  background-image: url(../../groupPage.jpg);
+body {
+  background-image: url(/images/groupPage.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   width: 100vw;
 }
 
@@ -73,7 +73,7 @@ input[type="submit"] {
   font-size: 16px;
 }
 
-.nav{
+.nav {
   display: flex;
   height: 60px;
   margin-top: 5px;
@@ -87,14 +87,14 @@ input[type="submit"] {
   min-width: 900px;
 }
 
-.nav input{
+.nav input {
   background-color: rgba(18, 29, 150, 0.555);
   height: 50px;
   min-width: 100px;
   align-self: center;
   margin-right: 280px;
   color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
 
